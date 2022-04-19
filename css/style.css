@@ -39,7 +39,7 @@ header ul
 
 .buttons
 {
-    width: 80px;
+    width: 100%;
     height: 40px;
     cursor: pointer;
     display: inline;
@@ -133,6 +133,25 @@ grid-auto-rows: auto;
     padding: 0px 12px;
 }
 
+.Text_Form
+{
+    width: 100%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+    border: 0;
+    color: var(--dark-grey);    
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin-top: 4px;
+    padding: 12px;
+}
+
+#trucazo
+{
+    opacity: 0;
+}
+
 .Imagen_Oficina
 {
     display: none;
@@ -143,6 +162,7 @@ grid-auto-rows: auto;
     width: 90%;
     font-size: 1.2rem;
     padding-bottom: 12px;
+    margin-top: 24px;
 }
 .Proyects h2
 {
@@ -211,6 +231,7 @@ footer
 {
     font-size: 2.4rem;
 }
+
 
 @media (min-width: 930px)
 {
